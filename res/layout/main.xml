@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main" >
+    
+    
+    <Button
+        android:id="@+id/buttonToSobre"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="23dp"
+        android:text="@string/sobre" />
+    
+    
+    <Button
+        android:id="@+id/buttonToSair"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonToSobre"
+        android:layout_alignBottom="@+id/buttonToSobre"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:text="@string/sair" />
+
+    <Button
+        android:id="@+id/buttonToCenario1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/cenario1" />
+
+    <Button
+        android:id="@+id/buttonToCenario3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonToCenario2"
+        android:layout_below="@+id/buttonToCenario2"
+        android:layout_marginTop="29dp"
+        android:text="@string/cenario3" />
+
+    <Button
+        android:id="@+id/buttonCenario4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonToCenario3"
+        android:layout_below="@+id/buttonToCenario3"
+        android:layout_marginTop="30dp"
+        android:text="@string/cenario4" />
+
+    <Button
+        android:id="@+id/buttonToCenario2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonToCenario1"
+        android:layout_below="@+id/buttonToCenario1"
+        android:layout_marginTop="30dp"
+        android:text="@string/cenario2" />
+
+</RelativeLayout>

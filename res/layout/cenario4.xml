@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btUp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/Left" />
+
+    <Button
+        android:id="@+id/btRiht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btLeft"
+        android:layout_alignBottom="@+id/btLeft"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:text="@string/Down" />
+
+    <Button
+        android:id="@+id/btOk"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btRiht"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Ok" />
+
+    <Button
+        android:id="@+id/btDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btOk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/Down" />
+
+    <TextView
+        android:id="@+id/textCenario4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cenario4" />
+
+    <Button
+        android:id="@+id/btUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textCenario4"
+        android:layout_below="@+id/textCenario4"
+        android:layout_marginTop="82dp"
+        android:text="@string/Up" />
+
+    <TextView
+        android:id="@+id/textTDirecionais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCenario4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/TDirecionais"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/buttonToVoltar4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/voltar" />
+
+</RelativeLayout>

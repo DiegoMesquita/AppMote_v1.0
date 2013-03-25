@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppMote</string>
+    <string name="menu_settings">Settings</string>
+    <string name="cenario1">Cenário 1</string>
+    <string name="cenario2">Cenário 2</string>
+    <string name="cenario3">Cenário 3</string>
+    <string name="cenario4">Cenário 4</string>
+    <string name="ufpb"></string>
+    <string name="TDirecionais">Teclas Direcionais</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    <string name="voltar">Voltar</string>
+    <string name="foto">Foto</string>
+    <string name="option1">1</string>
+    <string name="option2">2</string>
+    <string name="option3">3</string>
+    <string name="btenviarURL">Enviar</string>
+    <string name="enviarFoto">Enviar Foto</string>
+    <string name="enviarURL">Enviar URL</string>
+    <string name="Enquete">Enquete</string>
+    <string name="Sobre1">AppMote v1.0</string>
+    <string name="Sobre2">Desenvolvido por:</string>
+    <string name="Sobre3">Diego L. de Mesquita</string>
+    <string name="Sobre4">diegolopes.si@gmail.com</string>
+    <string name="Up">UP</string>
+    <string name="Down">DOWN</string>
+    <string name="Right">RIGHT</string>
+    <string name="Left">LEFT</string>
+    <string name="Ok">OK</string>
+    <color name="Red">#F20500</color>
+    <color name="Green">#0D9A2E</color>
+    <color name="Yellow">#EAEC37</color>
+    <color name="Blue">#2635F7</color>
+    <color name="White">#FFFFFF</color>
+
+</resources>

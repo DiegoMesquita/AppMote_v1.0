@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textCenario1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cenario1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textEnquete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCenario1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Enquete"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <Button
+        android:id="@+id/buttonOption1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textEnquete"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/option1" 
+        android:background="@color/Green" />
+    
+    <Button
+        android:id="@+id/buttonOption2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonOption1"
+        android:layout_alignBottom="@+id/buttonOption1"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/buttonOption1"
+        android:text="@string/option2" 
+        android:background="@color/Yellow" />
+
+    <Button
+        android:id="@+id/buttonOption3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonOption2"
+        android:layout_alignBottom="@+id/buttonOption2"
+        android:layout_alignLeft="@+id/buttonToVoltar1"
+        android:layout_marginLeft="44dp"
+        android:text="@string/option3" 
+        android:background="@color/Blue" />
+    
+    <Button
+        android:id="@+id/buttonOption4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonOption3"
+        android:layout_alignBottom="@+id/buttonOption3"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/buttonOption3"
+        android:background="@color/Red"
+        android:text="" />
+    	
+    <Button
+        android:id="@+id/buttonToVoltar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/voltar" />
+
+</RelativeLayout>
